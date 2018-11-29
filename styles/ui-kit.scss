@@ -83,7 +83,7 @@ $ui-color: #f26604;
 @include respond-from(xs) {
   .ui-btn-toggle-sidebar,
   .ui-btn-toggle-sidebar:focus,
-  .ui-btn-toggle-sidebar:hover, {
+  .ui-btn-toggle-sidebar:hover {
     padding: 6px 14px 6px 11px;
     .btn-icon { margin-right: 9px; }
     .btn-text { display: inline; }
@@ -323,7 +323,8 @@ $ui-color: #f26604;
 .ui-scrollbar { height: 150px; }
 .ui-scrollbar-content {
   background: #f0ffff;
-  height: 2000px; 
+  height: 180px;
+  overflow-y: scroll;
   padding: 50px 0;
 }
 .ui-scrollbar-content-start,
