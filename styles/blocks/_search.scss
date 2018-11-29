@@ -120,7 +120,7 @@
 
 .header-search-container {
   order: 3;
-  width: calc(100% - 450px);
+  width: calc(100% - 500px);
   @include respond-to(sm) {
     display: block;
     width: auto;
